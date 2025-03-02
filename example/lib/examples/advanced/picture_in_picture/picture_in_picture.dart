@@ -351,7 +351,7 @@ class _State extends State<PictureInPicture> with WidgetsBindingObserver {
               Container(
                 color: Colors.black,
               ),
-            if (!(Platform.isAndroid && _isInPipMode))
+            if (!(_isInPipMode))
               Positioned(
                 right: 0,
                 bottom: 0,
